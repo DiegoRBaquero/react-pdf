@@ -2033,6 +2033,39 @@
   dependencies:
     "@octokit/openapi-types" "^6.0.0"
 
+"@react-pdf/render@^2.0.14":
+  version "2.0.14"
+  resolved "https://registry.npmjs.org/@react-pdf/render/-/render-2.0.14.tgz#ab87734c2344772c65b4b21d29979a746ec49a13"
+  integrity sha512-8t9mlJmiMmv+QUbJ1CFdJP9M9ofkEcxDt1kFuv90u4zDb5O9MPMp7zihQ3q+IubSBRVWPW/LXEa8nPWKCnn3Ow==
+  dependencies:
+    "@react-pdf/primitives" "^2.0.0"
+    "@react-pdf/textkit" "^2.0.6"
+    "@react-pdf/types" "^2.0.6"
+    abs-svg-path "^0.1.1"
+    color-string "^1.5.3"
+    normalize-svg-path "^1.1.0"
+    parse-svg-path "^0.1.2"
+    ramda "^0.26.1"
+    svg-arc-to-cubic-bezier "^3.2.0"
+
+"@react-pdf/renderer@^2.0.6":
+  version "2.0.20"
+  resolved "https://registry.npmjs.org/@react-pdf/renderer/-/renderer-2.0.20.tgz#011ebe355c5dde4234900cb582a576948ee48890"
+  integrity sha512-bNDPRz+W7NYWTp2fcqkUshiHTEf1rTfWufCI5oPF+Z02O4vxuhKpI/Qcb1cS1klN2X6UzVAktGDEHxbR4WbYLQ==
+  dependencies:
+    "@babel/runtime" "^7.6.2"
+    "@react-pdf/font" "^2.0.13"
+    "@react-pdf/layout" "^2.0.20"
+    "@react-pdf/pdfkit" "^2.0.11"
+    "@react-pdf/primitives" "^2.0.0"
+    "@react-pdf/render" "^2.0.14"
+    "@react-pdf/types" "^2.0.6"
+    blob-stream "^0.1.3"
+    queue "^6.0.1"
+    ramda "^0.26.1"
+    react-reconciler "^0.23.0"
+    scheduler "^0.15.0"
+
 "@rollup/plugin-commonjs@^18.0.0":
   version "18.0.0"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-commonjs/-/plugin-commonjs-18.0.0.tgz#50dc7518b5aa9e66a270e529ea85115d269825c4"
